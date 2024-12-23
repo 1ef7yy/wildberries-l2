@@ -1,5 +1,6 @@
 TODO:
-1 - patterns
+**1 - patterns**
+
 - [x] facade
 - [x] builder
 - [x] visitor
@@ -8,12 +9,12 @@ TODO:
 - [ ] factory
 - [ ] strategy
 - [ ] state
-2 - time
-- [ ]
-3 - decode string
+**2 - time**
+- [x]
+**3 - decode string**
 - [ ] decoding
 - [ ] testing
-4 - sort
+**4 - sort**
 - [ ] -k
 - [ ] -n
 - [ ] -r
@@ -23,9 +24,9 @@ Additionally:
 - [ ] -b
 - [ ] -c
 - [ ] -h
-5 - anagrams
+**5 - anagrams**
 - [ ]
-6 - grep
+**6 - grep**
 - [ ] -A - "after": печатать +N строк после совпадения;
 - [ ] -B - "before": печатать +N строк до совпадения;
 - [ ] -C - "context": (A+B) печатать ±N строк вокруг совпадения;
@@ -34,23 +35,23 @@ Additionally:
 - [ ] -v - "invert": вместо совпадения, исключать;
 - [ ] -F - "fixed": точное совпадение со строкой, не паттерн;
 - [ ] -n - "line num": напечатать номер строки.
-7 - cut
+**7 - cut**
 - [ ] -f — "fields": выбрать поля (колонки);
 - [ ] -d — "delimiter": использовать другой разделитель;
 - [ ] -s — "separated": только строки с разделителем.
-8 - or channel
+**8 - or channel**
 - [ ]
-9 - OS
+**9 - OS**
 - [ ] - cd <args> — смена директории (в качестве аргумента могут быть то-то и то);
 - [ ] - pwd — показать путь до текущего каталога;
 - [ ] - echo <args> — вывод аргумента в STDOUT;
 - [ ] - kill <args> — «убить» процесс, переданный в качесте аргумента (пример: такой-то пример);
 - [ ] - ps — выводит общую информацию по запущенным процессам в формате такой-то формат.
-10 - wget
+**10 - wget**
 - [x]
-11 - telnet
+**11 - telnet**
 - [ ] connect
 - [ ] timeout
 - [ ] ctrl+D
-12 - HTTP server
+**12 - HTTP server**
 - [ ]
