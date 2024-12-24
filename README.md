@@ -4,11 +4,11 @@ TODO:
 - [x] facade
 - [x] builder
 - [x] visitor
-- [ ] command
-- [ ] cor
-- [ ] factory
-- [ ] strategy
-- [ ] state
+- [x] command
+- [x] cor
+- [x] factory
+- [x] strategy
+- [x] state
 **2 - time**
 - [x]
 **3 - decode string**
@@ -40,7 +40,7 @@ Additionally:
 - [ ] -d — "delimiter": использовать другой разделитель;
 - [ ] -s — "separated": только строки с разделителем.
 **8 - or channel**
-- [ ]
+- [x]
 **9 - OS**
 - [ ] - cd <args> — смена директории (в качестве аргумента могут быть то-то и то);
 - [ ] - pwd — показать путь до текущего каталога;
