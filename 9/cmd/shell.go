@@ -41,8 +41,6 @@ func CheckCommand(input string) {
 		commands.Kill(input)
 	} else if input == "ps" {
 		commands.Ps()
-	} else if strings.Contains(input, "|") {
-		commands.Pipe(input)
 	} else {
 		commands.External(input)
 	}
