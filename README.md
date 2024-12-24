@@ -50,8 +50,8 @@ Additionally:
 **10 - wget**
 - [x]
 **11 - telnet**
-- [ ] connect
-- [ ] timeout
-- [ ] ctrl+D
+- [x] connect
+- [x] timeout
+- [x] ctrl+D
 **12 - HTTP server**
 - [ ]

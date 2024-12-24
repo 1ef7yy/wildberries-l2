@@ -49,17 +49,13 @@ func main() {
 		}
 	}()
 
-	// Горутина для отправки данных в сокет
 	buf := make([]byte, 1024)
 	for {
-		// Чтение данных с stdin (ввод пользователя)
 		n, err := os.Stdin.Read(buf)
 		if err != nil {
-			// Если ошибка при чтении (например, Ctrl+D)
 			fmt.Println("Error reading input:", err)
 			break
 		}
-		// Отправка данных на сервер
 		_, err = conn.Write(buf[:n])
 		if err != nil {
 			fmt.Println("Error sending data:", err)
